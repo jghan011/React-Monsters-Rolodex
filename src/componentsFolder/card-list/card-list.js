@@ -12,3 +12,4 @@ export const Cardlist = (props) => {
     </div>
   );
 };
+// wehever setState is called and the properties change react Rerenders the component

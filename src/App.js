@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-
+import { SearchBox } from "/Users/jasonfrimpong/Documents/ZeroToMastery/React2021/monsters-rolodex/src/search-box/search-box.component.jsx";
 import { Cardlist } from "./componentsFolder/card-list/card-list";
 
 class App extends Component {
@@ -30,10 +30,10 @@ class App extends Component {
     );
     return (
       <div className="App">
-        <input
-          type="search"
+        <h1>Monsters Rolodex</h1>
+        <SearchBox
           placeholder="search monsters"
-          onChange={(e) => this.setState({ searchField: e.target.value })}
+          handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <Cardlist monsters={filterMonsters}></Cardlist>
       </div>
