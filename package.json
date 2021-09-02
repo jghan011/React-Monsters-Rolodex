@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jghan011.github.io/React-Monsters-Rolodex.git/",
+  "homepage": "https://jghan011.github.io/React-Monsters-Rolodex/",
   "dependencies": {
     "cra-template": "1.1.2",
     "gh-pages": "^3.2.3",
